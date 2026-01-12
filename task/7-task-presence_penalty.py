@@ -1,4 +1,4 @@
-from task.app.main import run
+from app.main import run
 
 # TODO:
 #  Try `presence_penalty` parameter.
@@ -12,6 +12,7 @@ run(
     deployment_name='gpt-4o',
     print_only_content=True,
     # TODO:
+    presence_penalty=1.5
     #  Use `presence_penalty` parameter with different range (-2.0 to 2.0)
 )
 

@@ -1,7 +1,7 @@
-from task.app.client import DialClient
-from task.models.conversation import Conversation
-from task.models.message import Message
-from task.models.role import Role
+from app.client import DialClient
+from models.conversation import Conversation
+from models.message import Message
+from models.role import Role
 
 DEFAULT_SYSTEM_PROMPT = "You are an assistant who answers concisely and informatively."
 DIAL_ENDPOINT = "https://ai-proxy.lab.epam.com/openai/deployments/{model}/chat/completions"

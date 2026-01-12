@@ -3,8 +3,8 @@ import os
 
 import requests
 
-from task.models.message import Message
-from task.models.role import Role
+from models.message import Message
+from models.role import Role
 
 
 class DialClient:
